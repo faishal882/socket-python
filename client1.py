@@ -5,8 +5,7 @@ HEADER = 64
 PORT = 5050
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = "!DISCONNECT"
-# SERVER = "10.10.209.19" #IP address of target host(server)
-SERVER = "192.168.36.207"
+SERVER = "10.10.209.19" #IP address of target host(server)
 ADDR = (SERVER, PORT)
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
